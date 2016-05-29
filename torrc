@@ -4,14 +4,3 @@ SocksListenAddress 0.0.0.0
 Log notice file /var/log/tor/notices.log
 DataDirectory /var/lib/tor
 RunAsDaemon 0
-
-## TOR relay configuration
-## SocksPort 0
-## ORPort 9001
-## DirPort 9030
-## RunAsDaemon 1
-## ExitPolicy reject *:*
-## Nickname TeleChicken # (you can chose whatever you like)
-## RelayBandwidthRate 100 KB  # Throttle traffic to 100KB/s (800Kbps)
-## RelayBandwidthBurst 200 KB # But allow bursts up to 200KB/s (1600Kbps)
-## Log notice file /var/log/tor/notices.log

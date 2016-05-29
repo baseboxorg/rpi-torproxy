@@ -10,7 +10,6 @@ sudo \
 privoxy \
 tor
 
-
 #
 # install and set up TOR
 RUN useradd -u 1984 -m -p '$1$Re@dy0rN$/upBg5x.s6nt8gHOH9NS0/' tor
